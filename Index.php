@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gestion de l'Horaire de l'ISS/Lubumbashi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="Style.css" />
+
+</head>
+<body>
+
+    <section class="accueil bg-dark d-flex w-100 h-100 flex-column justify-content-center">
+        <h1 class="display-1 text-white text-center"><bold>GESTION DES HORAIRES</bold></h1>
+        <h2 class=" text-white text-center">INSTITUT SUPERIEUR DE STATISTIQUE</h2>
+        <p class="lead text-center text-white"><strong>Connectez-vous pour avoir plus de privilèges dans cette application.
+            Avant de vous connectez, ressurez-vous que l'Administrateur vous a déja donné une fonction, si non l'accès est restreint qu'à la visualisation de l'horaire.</strong>
+        </p>
+
+        <div class="inner">
+            <nav class="nav nav-masthead justify-content-center">
+                <a class="btn btn-lg btn-primary btn-block" href="Login/Login.php" style="color:aliceblue;">Connexion</a><br>
+                <a class="btn btn-lg btn-secondary btn-block" href="Horaire/Horaire.php" style="color:aliceblue;margin-left:10px;">Ignorer</a>
+            </nav>
+        </div>
+    </section>
+
+    <div class="container py-5 bg-light">
+        <h2 class="display-4 text-center mb-5">NOS SALLES MACHINE</h2>
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="card md-4 shadow-sm">
+                    <img src="Image/SI1.jpg" alt="" class="w-100">
+                    <div class="card-body">
+                        <p class="card-text">Lorem, ipsum dolor. Lorem, ipsum dolor. Lorem ipsum dolor sit amet.</p>
+                    <div class="btn-group">
+                        <button class="btn btn-sm btn-outline-secondary">
+                            Contact
+                        </button>
+                        <button class="btn btn-sm btn-outline-secondary">
+                            Ensavoir plus
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="card md-4 shadow-sm">
+                    <img src="Image/SI6.jpg" alt="" class="w-100">
+                    <div class="card-body">
+                        <p class="card-text">Lorem, ipsum dolor.F GHF Lorem, ipsum dolor. Lorem ipsum dolor sit amet.</p>
+                        <div class="btn-group">
+                            <button class="btn btn-sm btn-outline-secondary">
+                                Contact
+                            </button>
+                            <button class="btn btn-sm btn-outline-secondary">
+                                Ensavoir plus
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="card md-4 shadow-sm">
+                    <img src="Image/si4.jpg" alt="" class="w-100">
+                    <div class="card-body">
+                        <p class="card-text">Lorem, ipsum dolor. Lorem, ipsum dolor. Lorem ipsum dolor sit amet.</p>
+                        <div class="btn-group">
+                            <button class="btn btn-sm btn-outline-secondary">
+                                Contact
+                            </button>
+                            <button class="btn btn-sm btn-outline-secondary">
+                                Ensavoir plus
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="nav nav-masthead justify-content-center">
+    <a href="mail to">&mailto;chadracktshi4279@gmail.com</a>
+</footer>
+</html>
